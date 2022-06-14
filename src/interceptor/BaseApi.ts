@@ -6,9 +6,9 @@ export const baseQuery = fetchBaseQuery({
     baseUrl: API_URL,
     prepareHeaders: (headers) => {
         const token = localStorage.getItem('token');
+        headers.set("Access-Control-Allow-Origin", "*");
         if (token) {
           headers.set('authorization', `Bearer ${token}`)
-          headers.set("Access-Control-Allow-Origin", "*");
     //       headers.set('Access-Control-Request-Headers', `X-Requested-With,content-type`)
         //   headers.set('Access-Control-Request-Origin', '*')
     //       headers.set('Access-Control-Request-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE')
