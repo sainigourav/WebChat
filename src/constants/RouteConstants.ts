@@ -1,4 +1,6 @@
-export const baseURL = ""
+import { React_App_Url } from "../utils/config";
+
+export const baseURL = React_App_Url;
 
 const RoutesConstants = {
     Login: baseURL + '/login',
