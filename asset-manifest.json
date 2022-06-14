@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/WebChat/static/css/main.d23059db.css",
-    "main.js": "/WebChat/static/js/main.46d2ec5c.js",
+    "main.js": "/WebChat/static/js/main.2df87230.js",
     "static/media/women.jpeg": "/WebChat/static/media/women.6bd8dd7b80a2d9d79488.jpeg",
     "static/media/emoji-sprite.png": "/WebChat/static/media/emoji-sprite.d308250dd499641a89fa.png",
     "static/media/women.png": "/WebChat/static/media/women.835fc8a186a4480077f3.png",
@@ -11,10 +11,10 @@
     "static/media/intro-connection-light.jpg": "/WebChat/static/media/intro-connection-light.5690d4732395a82e57a4.jpg",
     "index.html": "/WebChat/index.html",
     "main.d23059db.css.map": "/WebChat/static/css/main.d23059db.css.map",
-    "main.46d2ec5c.js.map": "/WebChat/static/js/main.46d2ec5c.js.map"
+    "main.2df87230.js.map": "/WebChat/static/js/main.2df87230.js.map"
   },
   "entrypoints": [
     "static/css/main.d23059db.css",
-    "static/js/main.46d2ec5c.js"
+    "static/js/main.2df87230.js"
   ]
 }
