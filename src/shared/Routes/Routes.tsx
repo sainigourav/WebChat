@@ -16,7 +16,7 @@ const Routes = () => {
         <MainWrapper path={RoutesConstants.SignUp} component={SignUp} />
         <AuthWrapper path={RoutesConstants.Home} component={Home} />
         <AuthWrapper path={RoutesConstants.ChatPage} component={Chat} />
-        <Redirect to={RoutesConstants.Login} />
+        <Redirect to={RoutesConstants.Home} />
     </Switch></>
   )
 }
